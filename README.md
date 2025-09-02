@@ -26,9 +26,9 @@ A mental health journaling app built in SwiftUI featuring:
 
 ## 📄 What’s in This Repo?
 
-- [`xgboost_analysis.md`](./xgboost_analysis.md) – Race strategy modeling write-up  
-- [`ai_ball_navigation.md`](./ai_ball_navigation.md) – Reinforcement learning simulation  
-- [`innercurrent_summary.md`](./innercurrent_summary.md) – iOS app architecture and features
+- [`xgboost_analysis.md`](/xgboost) – Race strategy modeling write-up  
+- [`ai_ball_navigation.md`](/ball-nav/) – Reinforcement learning simulation  
+- [`innercurrent_summary.md`](/innercurrent/) – iOS app architecture and features
 
 ---
 
