@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Race Strategy with XGBoost"
+permalink: /xgboost/
+---
+
 # Predictive Race Strategy Optimization for Petit Le Mans Using XGBoost
 
 ## Overview
