@@ -1,8 +1,3 @@
-from pathlib import Path
-import pypandoc
-
-# Re-define the markdown content and export path due to kernel reset
-markdown_text = """
 # Predictive Race Strategy Optimization for Petit Le Mans Using XGBoost
 
 ## Overview
@@ -58,11 +53,8 @@ XGBoost (eXtreme Gradient Boosting) is a type of ensemble model that builds **de
 - Integrate with live data systems for predictive engineering dashboards.
 - Incorporate driver inputs, fuel load, and tire wear for full race strategy optimization.
 - Expand to multi-driver models with classification tags for stint quality.
-"""
 
-output_path = "/mnt/data/xgboost_analysis.md"
+## 🔗 Key Code Files
+- [`main.py`](./main.py) – Core training and prediction script  
+- [`car77_timecards.csv`](./car77_timecards.csv) – Feature-engineered stint dataset used for model input/output  
 
-# Convert and save the markdown file
-pypandoc.convert_text(markdown_text, 'md', format='md', outputfile=output_path, extra_args=['--standalone'])
-
-output_path
