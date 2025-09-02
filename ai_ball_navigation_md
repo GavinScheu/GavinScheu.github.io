@@ -36,6 +36,11 @@ After sufficient training episodes, the agent is able to complete laps by:
 
 This serves as a minimal working example of DQN applied to spatial navigation. It has broader applications in areas such as robotics pathfinding, self-driving logic prototyping, and game AI behavior modeling.
 
+## 🔗 Key Code Files
+- [`train_ai.py`](./train_ai.py) – Main training loop
+- [`track_env.py`](./track_env.py) – Custom environment definition
+- [`test_env.py`](./test_env.py) – Evaluation/testing logic
+
 ---
 
 > Built using Python, PyTorch, and Pygame.
