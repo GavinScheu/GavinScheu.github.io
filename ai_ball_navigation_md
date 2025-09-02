@@ -1,0 +1,42 @@
+# 🧠 AI Ball Navigation Project
+
+This project implements a reinforcement learning agent that learns to navigate a ball around a 2D track environment. It simulates simplified path-planning challenges similar to those found in autonomous navigation, game AI, and robotics.
+
+## 🎮 Environment
+
+The custom environment is defined in `track_env.py` using `pygame`. It features:
+- A 2D map with defined track boundaries and checkpoints.
+- Collision detection with penalization for hitting walls.
+- Reward zones and checkpoints that provide positive feedback.
+- A visual renderer for observing agent behavior in real time.
+
+## 🧪 Testing
+
+The script `test_env.py` allows developers to verify:
+- Environmental mechanics such as wall collisions and reward triggering.
+- Agent-environment interactions without learning enabled.
+- Map visuals and logical layout before training begins.
+
+## 🤖 Learning Agent
+
+The `train_ai.py` script uses a **Deep Q-Network (DQN)** built with PyTorch. The learning system includes:
+- A replay buffer to sample previous experiences for training stability.
+- A target Q-network to reduce feedback loop instability.
+- Epsilon-greedy exploration for balancing exploration and exploitation.
+- Q-value updates via backpropagation and MSE loss.
+
+The agent observes states (like position and direction) and learns optimal actions (move forward, turn, etc.) through trial and error to complete laps efficiently.
+
+## 💡 Results
+
+After sufficient training episodes, the agent is able to complete laps by:
+- Learning to stay within the track boundaries.
+- Avoiding wall collisions.
+- Maximizing cumulative reward by reaching checkpoints.
+
+This serves as a minimal working example of DQN applied to spatial navigation. It has broader applications in areas such as robotics pathfinding, self-driving logic prototyping, and game AI behavior modeling.
+
+---
+
+> Built using Python, PyTorch, and Pygame.
+
