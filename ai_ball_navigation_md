@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Race Strategy with XGBoost"
+permalink: /xgboost/
+---
+
 # 🧠 AI Ball Navigation Project
 
 This project implements a reinforcement learning agent that learns to navigate a ball around a 2D track environment. It simulates simplified path-planning challenges similar to those found in autonomous navigation, game AI, and robotics.
