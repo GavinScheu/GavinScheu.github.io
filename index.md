@@ -1,49 +1,47 @@
 ---
-title: Gavin Scheu's Portfolio
+title: Gavin Scheu Portfolio
 layout: default
 ---
 
 # 👋 Hi, I'm Gavin Scheu
 
-I'm a Computer Science and AI-focused student working on cutting-edge motorsport analytics and reinforcement learning.  
-This site highlights two of my favorite projects:
-
-- 🏎️ **Race Strategy Optimization** with XGBoost
-- 🧠 **Reinforcement Learning Ball Navigation**
+I'm a Computer Science and AI enthusiast passionate about motorsport data analytics and reinforcement learning.  
+Currently, I'm exploring two major projects that combine my technical skills and racing interests.
 
 ---
 
-## 🏁 Race Strategy with XGBoost
+## 🏁 Project 1: Race Strategy Optimization with XGBoost
 
-<img src="https://raw.githubusercontent.com/GavinScheu/GavinScheu.github.io/main/assets/xgboost_chart.png" width="100%" alt="XGBoost Lap Strategy">
+Using machine learning (XGBoost), I built a model that predicts lap times during endurance races like Petit Le Mans.
 
-This project uses **XGBoost machine learning** to predict optimal race strategies in iRacing — including:
+- Predicts clean laps from noisy telemetry data  
+- Highlights sector importance and outlier laps  
+- Helps strategists and race engineers optimize stints  
 
-- Lap time forecasting
-- Tire degradation modeling
-- Fuel strategy predictions
-
-👉 [Read the full breakdown](xgboost_analysis.md)
+🔗 [**View Full Project** »](xgboost/)
 
 ---
 
-## 🧠 Ball Navigation with Reinforcement Learning
+## 🧠 Project 2: Reinforcement Learning Ball Navigation
 
-<img src="https://raw.githubusercontent.com/GavinScheu/GavinScheu.github.io/main/assets/ball_navigation.gif" width="100%" alt="RL Ball Navigation">
+This project demonstrates how a Deep Q-Network (DQN) can learn to navigate a ball around a 2D track.
 
-This project demonstrates a reinforcement learning model that teaches a ball how to navigate a curved track using trial-and-error learning.
+- Built with PyTorch and Pygame  
+- Includes reward shaping, collision penalties, and visual rendering  
+- Great for game AI, robotics, or autonomous vehicle prototyping  
 
-- Uses Q-learning and reward shaping
-- Visualizes pathfinding convergence
-- Trains across thousands of iterations
-
-👉 [Explore the RL project](ai_ball_navigation.md)
+🔗 [**View Full Project** »](ball-nav/)
 
 ---
 
-## 📬 Contact Me
+## 📬 Contact
 
-- 💼 [GitHub](https://github.com/GavinScheu)
-- 🎓 Auburn University
-- 📧 gavin@example.com
+- [GitHub](https://github.com/GavinScheu)
+- Email: gavin@example.com  
+- Auburn University | CS & AI | iRacing Team
+
+---
+> This portfolio is built with Markdown & GitHub Pages.  
+> Last updated: {{ site.time | date: '%B %d, %Y' }}
+
 
