@@ -6,6 +6,10 @@ permalink: /xgboost/
 
 # Predictive Race Strategy Optimization for Petit Le Mans Using XGBoost
 
+![Actual vs. Predicted Lap Times](./xgboost_lap_predictions.png)
+
+*Figure: Actual (blue) vs. Predicted (red) lap times generated from one iteration of the model. Each run produces slightly different predictions, but they remain nearly identical in structure and accuracy.*
+
 ## Overview
 
 This project applies **XGBoost**, an advanced machine learning algorithm, to predict lap times during endurance races such as Petit Le Mans. The model is trained on lap-level telemetry data including sector times, lap number, and top speed, in order to estimate what a clean lap should look like. This system is intended to help race engineers and strategists better understand driver performance and make data-informed decisions in real time.
@@ -63,3 +67,4 @@ XGBoost (eXtreme Gradient Boosting) is a type of ensemble model that builds **de
 ## 🔗 Key Code Files
 - [`main.py`](./main.py) – Core training and prediction script  
 - [`car77_timecards.csv`](./car77_timecards.csv) – Feature-engineered stint dataset used for model input/output  
+
