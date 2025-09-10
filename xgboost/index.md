@@ -3,8 +3,6 @@ layout: page
 title: "Race Strategy with XGBoost"
 permalink: /xgboost/
 ---
-<link rel="stylesheet" href="/assets/css/style.css">
-<div class="wrapper">
 # Predictive Race Strategy Optimization for Petit Le Mans Using XGBoost
 
 ![Actual vs. Predicted Lap Times](./xgboost_lap_predictions.png)
@@ -68,4 +66,4 @@ XGBoost (eXtreme Gradient Boosting) is a type of ensemble model that builds **de
 ## 🔗 Key Code Files
 - [`main.py`](./main.py) – Core training and prediction script  
 - [`car77_timecards.csv`](./car77_timecards.csv) – Feature-engineered stint dataset used for model input/output  
-</div>
+
