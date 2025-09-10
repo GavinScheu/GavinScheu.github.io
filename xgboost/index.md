@@ -3,6 +3,7 @@ layout: page
 title: "Race Strategy with XGBoost"
 permalink: /xgboost/
 ---
+<link rel="stylesheet" href="/assets/css/style.css">
 <div class="wrapper">
 # Predictive Race Strategy Optimization for Petit Le Mans Using XGBoost
 
