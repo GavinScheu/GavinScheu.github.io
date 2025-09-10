@@ -1,4 +1,5 @@
 ---
+<div class="wrapper">
 layout: page
 title: "Race Strategy with XGBoost"
 permalink: /xgboost/
@@ -67,4 +68,4 @@ XGBoost (eXtreme Gradient Boosting) is a type of ensemble model that builds **de
 ## 🔗 Key Code Files
 - [`main.py`](./main.py) – Core training and prediction script  
 - [`car77_timecards.csv`](./car77_timecards.csv) – Feature-engineered stint dataset used for model input/output  
-
+</div>
