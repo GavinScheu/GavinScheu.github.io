@@ -7,3 +7,6 @@ header_pages:
   - index.md
   - xgboost/index.md
   - ball-nav/index.md
+
+sass:
+  style: compressed
