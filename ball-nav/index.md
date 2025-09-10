@@ -3,7 +3,7 @@ layout: page
 title: "Ball Navigation AI"
 permalink: /ball-nav/
 ---
-
+<div class="wrapper">
 # 🧠 AI Ball Navigation Project
 
 This project implements a reinforcement learning agent that learns to navigate a ball around a 2D track environment. It simulates simplified path-planning challenges similar to those found in autonomous navigation, game AI, and robotics.
@@ -50,4 +50,4 @@ This serves as a minimal working example of DQN applied to spatial navigation. I
 ---
 
 > Built using Python, PyTorch, and Pygame.
-
+</div>
