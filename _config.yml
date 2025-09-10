@@ -1,3 +1,9 @@
 title: Gavin Scheu Projects
 description: AI • Racing • Apps
 theme: jekyll-theme-minimal
+
+# Add navigation links
+header_pages:
+  - index.md
+  - xgboost/index.md
+  - ball-nav/index.md
