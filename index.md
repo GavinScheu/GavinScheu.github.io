@@ -38,7 +38,7 @@ This project demonstrates how a Deep Q-Network (DQN) can learn to navigate a bal
 
 - [GitHub](https://github.com/GavinScheu)
 - Email: gavin@example.com  
-- Auburn University | CS & AI | iRacing Team
+- Auburn University | CS & Auburn | iRacing Team
 
 ---
 > This portfolio is built with Markdown & GitHub Pages.  
