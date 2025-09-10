@@ -3,6 +3,7 @@ layout: page
 title: "Ball Navigation AI"
 permalink: /ball-nav/
 ---
+<link rel="stylesheet" href="/assets/css/style.css">
 <div class="wrapper">
 # 🧠 AI Ball Navigation Project
 
