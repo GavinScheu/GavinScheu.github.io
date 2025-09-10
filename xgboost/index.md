@@ -1,10 +1,9 @@
 ---
-<div class="wrapper">
 layout: page
 title: "Race Strategy with XGBoost"
 permalink: /xgboost/
 ---
-
+<div class="wrapper">
 # Predictive Race Strategy Optimization for Petit Le Mans Using XGBoost
 
 ![Actual vs. Predicted Lap Times](./xgboost_lap_predictions.png)
